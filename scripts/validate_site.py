@@ -37,7 +37,7 @@ def main() -> int:
     if not pages:
         errors.append("Nenhuma página HTML encontrada.")
 
-    for app in ("uploadfit", "pdf-target"):
+    for app in ("uploadfit", "pdf-target", "batch-fit", "sample-fit"):
         for filename in ("index.html", "privacy.html"):
             path = ROOT / "apps" / app / filename
             if not path.is_file():
@@ -61,4 +61,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
