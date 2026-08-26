@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog version="1.0" currency="USD">
+  <supplier id="SUP-DEMO-01">
+    <name>Northwind Demo Supply</name>
+    <country>US</country>
+  </supplier>
+  <products>
+    <product sku="XML-100" status="active">
+      <name>Precision Sensor</name>
+      <category>Components</category>
+      <price>149.90</price>
+      <stock warehouse="A1">24</stock>
+    </product>
+    <product sku="XML-205" status="active">
+      <name>Inspection Camera</name>
+      <category>Diagnostics</category>
+      <price>289.00</price>
+      <stock warehouse="B4">8</stock>
+    </product>
+    <product sku="XML-410" status="backorder">
+      <name>Calibration Kit</name>
+      <category>Maintenance</category>
+      <price>79.50</price>
+      <stock warehouse="C2">0</stock>
+    </product>
+  </products>
+  <summary>
+    <productCount>3</productCount>
+    <inventoryValue>5887.60</inventoryValue>
+  </summary>
+</catalog>
